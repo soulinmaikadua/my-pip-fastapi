@@ -1,0 +1,52 @@
+# .gitignore
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual Environment
+venv/
+env/
+*.pyc
+*.pyo
+*.pyd
+
+# Editor
+.vscode/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Dependency directories
+node_modules/
+__pypackages__/
+
+# Output files
+*.pyc
+*.pyo
+*.pyd
+*.pyz
+*.pyw
+*.pyz
+__pycache__/
+*.egg-info/
+dist/
+build/
+*.egg
+*.egg-info
+*.pyc
+*.pyo
+*.pyd
+
+# Environment variables
+.env
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# FastAPI specific
+__pycache__/

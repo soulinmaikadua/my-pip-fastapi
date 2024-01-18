@@ -1,0 +1,20 @@
+myproject/
+|-- app/
+|   |-- __init__.py
+|   |-- main.py
+|   |-- routers/
+|   |   |-- __init__.py
+|   |   |-- item.py
+|   |   |-- user.py
+|   |-- models/
+|   |   |-- __init__.py
+|   |   |-- item.py
+|   |   |-- user.py
+|   |-- dependencies/
+|       |-- __init__.py
+|       |-- auth.py
+|-- tests/
+|   |-- __init__.py
+|   |-- test_main.py
+|-- main.py
+|-- requirements.txt
