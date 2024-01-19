@@ -5,6 +5,10 @@ from .database import engine
 
 app = FastAPI()
 
+@app.get("")
+def read_root():
+	return {"message": "Hello, world!"}
+
 # Include routers
 # app.include_router(item.router)
 app.include_router(user.router)

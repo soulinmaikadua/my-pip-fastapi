@@ -1,5 +1,5 @@
 # main.py
-from app.main import app
+from my_pip_fastapi.app.main import app
 from uvicorn import run
 
 if __name__ == "__main__":
